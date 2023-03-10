@@ -1,0 +1,711 @@
+.ozonMain {
+    width: 100%;
+    min-height: 900px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.ozonMain__container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ozonMain__section_text_mobile {
+    display: none;
+}
+
+.ozonMain__description {
+    display: flex;
+    width: 84.5%;
+    margin: 0 auto;
+    min-height: 140px;
+}
+
+.ozonMain__description_text {
+    font-family: 'ALSGorizontMedium';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 50px 26px 0 0;
+    color: #676767;
+}
+
+.ozonMain__description_line {
+    width: 105px;
+    height: 0px;
+    margin: 58px 26px 0 0;
+    border: 1px solid #E4365A;
+}
+
+.ozonMain__logo {
+    max-width: 190px;
+    height: 45px;
+    margin: 50px 0 94px 28%;
+}
+
+.ozonMain__section_text {
+    margin: 0 0 0 7%;
+}
+
+.ozonMain__title {
+    max-width: 700px;
+    background: linear-gradient(90deg, #2722FF 0%, #7F7CFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: 'ALSGorizontBoldExpanded';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 69px;
+    line-height: 69px;
+    margin: 0 0 50px 0;
+}
+
+.ozonMain__title_blue {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #2722FF 0%, #7F7CFF 100%);
+}
+
+.ozonMain__subtitle_block {
+    background: #1E2029;
+    width: 100%;
+    height: 78px;
+}
+
+.ozonMain__subtitle_text {
+    font-family: 'ALSGorizontVariable';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 29px;
+    line-height: 60px;
+    color: #ffffff;
+    padding: 10px 0 0 0;
+    margin: 0 0 0 28%;
+}
+
+.ozonMain__button {
+    max-width: 288px;
+    height: 64px;
+    background: linear-gradient(90deg, #2722FF 0%, #7F7CFF 100%);
+    border-radius: 15px;
+    font-family: 'ALSHauss';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    justify-content: center;
+    margin: 55px 0 0 28%;
+    cursor: pointer;
+}
+
+.ozonMain__link {
+    width: 100%;
+    height: 64px;
+    color: #ffffff;
+    display: block;
+    padding: 20px 0 0 0;
+}
+
+.ozonMain__sectionn_image {
+    position: absolute;
+    margin: -385px 0 0 7%;
+}
+
+.ozonMain__section_image_mobile {
+    display: none;
+}
+
+.b2bHead__section_image_contant_mobile {
+    display: none;
+}
+
+.ozonMain__subtitle_block_mobile {
+    display: none;
+}
+
+.ozonMain__section_contacts {
+    margin: 230px 0 0 7.1%;
+    width: 40%;
+    position: absolute;
+    z-index: 19;
+}
+
+.contacts__container2_textfield {
+    width: 385px;
+    height: 56px;
+    margin: 23px 0 0 0;
+    padding: 6px 0 0 50px;
+    background: #EFEFEF;
+    border-radius: 17px;
+    font-family: 'ALSHauss';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    border: 2px solid #ffffff;
+}
+
+.contacts__input_number {
+    font-family: 'ALSHauss';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin: -41px 0 0 20px;
+    color: #000000;
+}
+
+.ozonMain__image_1 {
+    position: absolute;
+    z-index: 15;
+    width: 1600px;
+    height: 460px;
+    margin: -140px 0 0 8%;
+}
+
+.ozonMain__image_2 {
+    position: absolute;
+    z-index: 18;
+    width: 500px;
+    height: 740px;
+    margin: -209px 0 0 72.9%;
+}
+
+.ozonMain__image_round_blue {
+    position: absolute;
+    z-index: 12;
+    width: 124px;
+    height: 172px;
+    margin: 25px 0 0 3.9%;
+}
+
+.ozonMain__image_round_white {
+    position: absolute;
+    z-index: 16;
+    width: 80px;
+    height: 116px;
+    margin: 53px 0 0 5.15%;
+}
+
+.ozonMain__section_image {
+    width: 100%;
+}
+
+.contacts__container2_button {
+    max-width: 436px;
+    height: 63px;
+    margin: 30px 0 0 0;
+    background: #4E4AFF;
+    border-radius: 15px;
+    font-family: 'ALSHauss';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.contacts__container2_button_text {
+    width: 283px;
+    height: 26px;
+    padding: 21px 0 0 73px;
+    font-family: 'ALSHauss';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contacts__container2_4 {
+    max-width: 330px;
+    height: 34px;
+    margin: 43px 0 0 0;
+    font-family: 'ALSHauss';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    align-items: center;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    color: #9B9B9B;
+}
+
+.ozonMain__round_red {
+    position: absolute;
+    z-index: 15;
+    background-color: #E4365A;
+    width: 46px;
+    height: 80px;
+    border-radius: 80px;
+    margin: 71px 0 0 6.1%;
+}
+
+.ozonMain__text {
+    display: flex;
+    width: 90%;
+    height: 120px;
+    margin: 54px 0 0 12%;
+    color: white;
+    z-index: 17;
+    position: absolute;
+}
+
+.ozonMain__text_block1 {
+    font-family: 'ALSGorizontVariable';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 33px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin: 40px 0 0 0;
+}
+
+.ozonMain__text_block2 {
+    width: 79%;
+    height: 124px;
+    background: linear-gradient(90deg, #2722FF 0%, #7F7CFF 100%);
+    color: #ffffff;
+    border-radius: 90px;
+    margin: -8px 0 0 35px;
+}
+
+.ozonMain__text_block3 {
+    font-family: 'ALSGorizontVariable';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 73px;
+    line-height: 73px;
+    margin: 34px 0 0 38px;
+}
+
+a {
+    color: #4E4AFF;
+}
+
+.ozonMain__image_car {
+    position: absolute;
+    z-index: 19;
+    width: 590px;
+    height: 410px;
+    margin: 209px 0 0 64%;
+    transform: rotate(-30.37deg);
+}
+
+.ozonMain__promocode_mobile {
+    display: none;
+}
+
+@media (min-width: 1900px) {
+    .ozonMain__image_2 {
+        margin: -209px 0 0 81%;
+    }
+    .ozonMain__image_1 {
+        width: 2100px;
+    }
+    .ozonMain__round_red {
+        margin: 71px 0 0 5.8%;
+    }
+    .ozonMain {
+        height: 1050px;
+    }
+    .ozonMain__image_car {
+        margin: 215px 0 0 68%;
+    }
+}
+
+@media (max-width: 2685px) {
+    .ozonMain__sectionn_image {
+        margin: -385px 0 0 7%;
+    }
+}
+
+@media (max-width: 1960px) {
+    .ozonMain__logo {
+        margin: 50px 0 94px 18%;
+    }
+    .ozonMain__section_text {
+        margin: 0 0 0 7%;
+    }
+    .ozonMain__subtitle_text {
+        margin: 0 0 0 18%;
+    }
+    .ozonMain__button {
+        margin: 55px 0 0 18%;
+    }
+    .ozonMain__sectionn_image {
+        margin: -385px 0 0 2%;
+    }
+    .ozonMain {
+        height: 1050px;
+    }
+    .ozonMain__image_car {
+        margin: 190px 0 0 60%;
+    }
+}
+
+@media (max-width: 1875px) {
+    .ozonMain__sectionn_image {
+        margin: -185px 0 0 1%;
+    }
+    .ozonMain__image_car {
+        margin: 190px 0 0 54.6%;
+    }
+}
+
+@media (max-width: 1838px) {
+    .ozonMain__sectionn_image {
+        margin: -185px 0 0 1%;
+    }
+}
+
+@media (max-width: 1775px) {
+    .ozonMain__sectionn_image {
+        margin: -185px 0 0 1%;
+    }
+}
+
+@media (max-width: 1775px) {
+    .ozonMain__image_1 {
+        position: absolute;
+        z-index: 15;
+        width: 1300px;
+        height: 460px;
+        margin: -140px 0 0 8%;
+    }
+}
+
+@media (max-width: 1575px) {
+    .ozonMain__image_2 {
+        position: absolute;
+        z-index: 18;
+        width: 500px;
+        height: 740px;
+        margin: -209px 0 0 68%;
+    }
+    .ozonMain__image_1 {
+        position: absolute;
+        z-index: 15;
+        width: 1200px;
+        height: 460px;
+        margin: -140px 0 0 8%;
+    }
+    .ozonMain__text_block2 {
+        width: 73%;
+        margin: -8px 0 0 35px;
+    }
+    .ozonMain {
+        height: 945px;
+    }
+    .ozonMain__image_car {
+        margin: 178px 0 0 41.5%;
+    }
+}
+
+@media (max-width: 1495px) {
+    .ozonMain__image_2 {
+        position: absolute;
+        z-index: 18;
+        width: 500px;
+        height: 740px;
+        margin: -209px 0 0 65.3%;
+    }
+    .ozonMain__description {
+        width: 89%;
+    }
+}
+
+@media (max-width: 1485px) {
+    .ozonMain__logo {
+        margin: 50px 0 94px 11%;
+    }
+    .ozonMain__sectionn_image {
+        margin: -385px 0 0 1%;
+    }
+    .ozonMain__section_text {
+        margin: 0 0 0 5%;
+    }
+    .ozonMain__subtitle_text {
+        margin: 0 0 0 11%;
+    }
+    .ozonMain__button {
+        margin: 55px 0 0 11%;
+    }
+}
+
+@media (max-width: 1185px) {
+    .ozonMain {
+        height: 758px;
+        margin: 0 auto;
+    }
+    .ozonMain__container {
+        width: 100%;
+    }
+    .ozonMain__logo {
+        width: 164px;
+        height: 39px;
+        margin: 60px 0 50px 27%;
+    }
+    .ozonMain__subtitle_block {
+        display: none;
+    }
+    .ozonMain__subtitle_block_mobile {
+        display: block;
+        width: 214px;
+        height: 60px;
+        background: linear-gradient(90deg, #2722FF 0%, #7F7CFF 100%);
+        border-radius: 13px;
+        margin: 0 auto 40px auto;
+        padding: 15px 0 0 0;
+        font-family: 'ALSGorizontVariable';
+        font-style: normal;
+        font-weight: 750;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .contacts__container2_textfield {
+        max-width: 350px;
+        margin: 43px 0 0 0;
+    }
+}
+
+@media (max-width: 785px) {
+    .ozonMain {
+        padding: 0 auto;
+        height: 1320px;
+    }
+    .ozonMain__section_text {
+        display: none;
+    }
+    .ozonMain__section_text_mobile {
+        display: block;
+        font-style: normal;
+        font-weight: 750;
+        font-size: 39px;
+        line-height: 39px;
+        text-align: center;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, #2722FF 0%, #7F7CFF 100%);
+    }
+    .ozonMain__title_mobile_price {
+        font-size: 73px;
+        line-height: 73px;
+    }
+    .ozonMain__title {
+        width: 100%;
+        font-size: 36px;
+        line-height: 35px;
+        margin: 0 0 50px 0;
+        text-align: center;
+        font-family: 'ALSGorizontBoldExpanded';
+    }
+    .ozonMain__sectionn_image {
+        margin: -60px 0 0 -45%;
+        width: 200%;
+    }
+    .ozonMain__section_image_content {
+        width: 100%;
+        height: 300px;
+    }
+    .ozonMain__button {
+        position: absolute;
+        width: 70%;
+        margin: 300px 0 0 15.5%;
+    }
+    .contacts__container2_textfield {
+        width: 285px;
+        height: 56px;
+        margin: 23px 0 20px 0;
+    }
+    .contacts__input_number {
+        margin: -62px 0 0 20px;
+    }
+    .ozonMain__description {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 30px 0 0 3%;
+        text-align: center;
+    }
+    .ozonMain__description_text {
+        margin: 14px 26px 0 0;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .ozonMain__description_line {
+        margin: 14px 26px 0 0;
+    }
+    .ozonMain__section_image {
+        margin: 1000px 0 0 0;
+    }
+    .ozonMain__section_contacts {
+        margin: 26px 0 0 0;
+        width: 90%;
+        padding: 0 5% 0 5%;
+    }
+    .ozonMain__section_image_mobile {
+        display: block;
+        margin: 300px 0 0 0;
+        height: 500px;
+    }
+    .ozonMain__section_image {
+        display: none;
+    }
+    .contacts__container2_button_text {
+        padding: 21px 0 0 10.6%;
+    }
+}
+
+@media (max-width: 740px) {
+    .ozonMain {
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 100%;
+    }
+    .ozonMain__section_image_content_mobile {
+        display: block;
+        width: 150%;
+        height: 700px;
+        margin: 0 0 0 -30%;
+        position: absolute;
+        z-index: 5;
+    }
+    .ozonMain__section_image_car_mobile {
+        width: 590px;
+        height: 390px;
+        margin: 270px 0 0 -150px;
+        position: absolute;
+        z-index: 21;
+        transform: rotate(-15.23deg);
+    }
+    .ozonMain__section_image_round_blue {
+        width: 172px;
+        height: 124px;
+        margin: -1px 0 0 28.5%;
+        position: absolute;
+        z-index: 2;
+    }
+    .ozonMain__section_image_round_white {
+        width: 119px;
+        height: 83px;
+        margin: 15px 0 0 34.95%;
+        position: absolute;
+        z-index: 10;
+    }
+    .contacts__container2_textfield {
+        width: 289px;
+        height: 56px;
+        margin: 23px 0 20px 0;
+    }
+    .ozonMain__promocode_mobile {
+        display: block;
+        position: absolute;
+        width: 80%;
+        height: 100px;
+        z-index: 20;
+        margin: -300px 0 0 10%;
+    }
+    .ozonMain__promocode_mobile_text {
+        font-family: 'ALSGorizontVariable';
+        font-style: normal;
+        font-weight: 750;
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .ozonMain__promocode_mobile_picture {
+        background: linear-gradient(90deg, #2722FF 0%, #7F7CFF 100%);
+        border-radius: 50px;
+        width: 100%;
+        margin: 8px auto 0 auto;
+        height: 50px;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'ALSGorizontVariable';
+        font-style: normal;
+        font-weight: 750;
+        font-size: 42px;
+        line-height: 38px;
+        padding: 20px 0 0 0;
+    }
+    .contacts__container2_4 {
+        margin: 43px 0 0 3px;
+    }
+}
+
+@media (max-width: 445px) {
+    .ozonMain__section_image_content_mobile {
+        display: block;
+        width: 150%;
+        height: 700px;
+        margin: -20px 0 0 -102px;
+        position: absolute;
+        z-index: 5;
+    }
+}
+
+@media (max-width: 435px) {
+    .contacts__container2_textfield {
+        width: 319px;
+        height: 56px;
+        margin: 23px 0 20px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .contacts__container2_textfield {
+        width: 263px;
+        height: 56px;
+        margin: 23px 0 20px 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .contacts__container2_textfield {
+        width: 250px;
+        height: 56px;
+        margin: 23px 0 20px 0;
+    }
+    .contacts__container2_button_text {
+        padding: 21px 0 0 8.05%;
+    }
+    .ozonMain__section_image_content_mobile {
+        margin: -20px 0 0 -92px;
+    }
+}
+
+@media (max-width: 360px) {
+    .contacts__container2_textfield {
+        width: 212px;
+        height: 56px;
+        margin: 23px 0 20px -10px;
+    }
+    .contacts__input_number {
+        margin: -62px 0 0 15px;
+    }
+    .ozonMain__section_image_content_mobile {
+        margin: -20px 0 0 -67px;
+    }
+    .ozonMain__promocode_mobile_picture {
+        width: 108%;
+    }
+}
